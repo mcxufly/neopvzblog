@@ -1,0 +1,4 @@
+baseURL: https://example.org/
+languageCode: zh-cn
+title: 植物大战僵尸复刻开发日志
+theme: ["PaperMod"]
