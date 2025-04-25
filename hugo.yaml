@@ -1,8 +1,107 @@
-baseURL: https://example.org/
-languageCode: zh-cn
+baseURL: https://mcxufly.github.io/neopvzblog/
 title: 植物大战僵尸复刻开发日志
+copyright: "[MCXuFly](https://github.com/mcxufly)"
 theme: ["PaperMod"]
 
 caches:
   images:
     dir: :cacheDir/images
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 植物大战僵尸复刻开发日志
+  languageAltTitle: "Plants vs. Zombies Remake Devlog"
+  description: "植物大战僵尸复刻开发日志"
+  keywords: [Blog, Game, Development]
+  author: MCXuFly
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2000-01-01"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: Icon.png
+    favicon16x16: Icon16.png
+    favicon32x32: Icon32.png
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "植物大战僵尸复刻开发日志"
+    icon: Icon.png
+    iconHeight: 32
+
+  # home-info mode
+  homeInfoParams:
+    Title: 植物大战僵尸复刻开发日志
+    Content: 使用 Godot 引擎复刻开发植物大战僵尸过程中遇到的问题以及开发日志
+
+  socialIcons:
+    - name: bilibili
+      url: "https://space.bilibili.com/383830477"
+    - name: github
+      url: "https://github.com/mcxufly"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: home
+      name: 主页
+      url: /
+      weight: 1
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
