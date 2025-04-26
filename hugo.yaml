@@ -21,7 +21,7 @@ params:
   author: MCXuFly
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "2000-01-01"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -94,14 +94,18 @@ menu:
       name: 主页
       url: /
       weight: 1
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 2
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
     # lineNos: true
     # style: monokai
