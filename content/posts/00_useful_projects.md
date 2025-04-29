@@ -3,7 +3,7 @@ title: "实用的项目和工具"
 date: '2025-04-26T07:00:00+08:00'
 weight: 1
 # aliases: ["/first"]
-tags: [tool]
+tags: [工具]
 author: "XuFly"
 # author: ["Me", "You"] # multiple authors
 showToc: true

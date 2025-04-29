@@ -3,7 +3,7 @@ title: "原版游戏的音乐音效"
 date: '2025-04-27T07:00:00+08:00'
 # weight: 1
 # aliases: ["/first"]
-tags: [file, sound]
+tags: [文件, 声音]
 author: "XuFly"
 # author: ["Me", "You"] # multiple authors
 showToc: true
