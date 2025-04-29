@@ -13,6 +13,8 @@ buildFuture: false
 buildExpired: false
 
 params:
+  math: true # enable mathjax
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: 植物大战僵尸复刻开发日志
   languageAltTitle: "Plants vs. Zombies Remake Devlog"
