@@ -1,6 +1,6 @@
 baseURL: https://mcxufly.github.io/neopvzblog/
 title: 植物大战僵尸复刻开发日志
-copyright: "[MCXuFly](https://github.com/mcxufly)"
+copyright: "[Neo PvZ Dev Blog](https://github.com/mcxufly/neopvzblog) © 2025 by [徐弗洛(XuFly)](https://github.com/mcxufly) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
 theme: ["PaperMod"]
 
 caches:
