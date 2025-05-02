@@ -1,5 +1,5 @@
 ---
-title: "实用的项目和工具"
+title: "总述"
 date: '2025-04-26T07:00:00+08:00'
 weight: 1
 # aliases: ["/first"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "开发过程中使用的工具和项目"
+description: "植物大战僵尸复刻开发项目的概括性描述"
 # canonicalURL: "https://canonical.url/to/page"
 disableShare: true
 disableHLJS: false
@@ -34,6 +34,20 @@ cover:
 #     Text: "Suggest Changes" # edit text
 #     appendFilePath: true # to append file path to Edit link
 ---
+
+## 前言
+
+最近植物大战僵尸非常火热，这个发布于 2009 的老游戏再次焕发了生机。  
+我想正好和学习 Godot 引擎一起制作植物大战僵尸复刻开源版。  
+开发过程中将尽最大可能仅使用开源软件。  
+
+## 项目
+
+Neo PVZ(游戏): https://github.com/mcxufly/neopvz  
+Neo PVZ Blog(开发日志): https://github.com/mcxufly/neopvzblog  
+Neo PVZ Helper(开发工具): https://github.com/mcxufly/neopvzhelper  
+
+## 使用到的项目
 
 **所有开发过程中使用到的工具和项目都会记录在此**
 
